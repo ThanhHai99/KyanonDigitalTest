@@ -7,15 +7,15 @@
 * [Cách cài đặt](#Cách-cài-đặt)
 * [Cách sử dụng](#Cách-sử-dụng)
 	* [Hướng dẫn sử dụng bằng Insomnia]()
-		* [Sign Up]()
-		* [Sign In]()
-		* [Add To-Do]()
-		* [Update To-Do]()
-		* [Remove To-Do]()
-		* [Get All To-Do]()
-		* [Get To-Do By Id]()
-		* [Get All User]()
-		* [Assign To-Do]()
+		* [Sign Up](#Sign-Up)
+		* [Sign In](#Sign-In)
+		* [Add To-Do](#Add-To-Do)
+		* [Update To-Do](#Update-To-Do)
+		* [Remove To-Do](#Remove-To-Do)
+		* [Get All To-Do](#Get-All-To-Do)
+		* [Get To-Do By Id](#Get-To-Do-By-Id)
+		* [Get All User](#Get-All-User)
+		* [Assign To-Do](#Assign-To-Do)
 * [Thông tin liên lạc](#Thông-tin-liên-lạc)
 
 ## Giới thiệu
@@ -23,21 +23,21 @@
 
 ## Cấu trúc cây
 <p align="left">
-	<img src="./doc/TreeStructure.png" width="400" />
+	<img src="./doc/TreeStructure.png" width="800" />
 </p>
 
 ## Mô hình cơ sở dữ liệu
 <p align="left">
-	<img src="./doc/DatabaseDesign.png" width="400" />
+	<img src="./doc/DatabaseDesign.png" width="800" />
 </p>
 
 ## Luồng request
 <p align="left">
-	<img src="./doc/RequestStream.png" width="400" />
+	<img src="./doc/RequestStream.png" width="800" />
 </p>
 
 ## Điều kiện tiên quyết
-**Đã cài đặt nodejs. [Download][https://nodejs.org/en/download/]**
+Đã cài đặt nodejs. <https://nodejs.org/en/download/>
 
 ## Cách cài đặt
 * **Bước 1**: Cài đặt những thư viện cần thiết cho dự án
@@ -56,17 +56,17 @@ $ npm start
 #### Sign Up
 `Route (POST) /auth/signUp`
 <p align="left">
-	<img src="./doc/image/SignUp.png" width="400" />
+	<img src="./doc/image/SignUp.png" width="800" />
 </p>
 
 #### Sign In
 `Route (POST) /auth/signIn`
 <p align="left">
-	<img src="./doc/image/SignIn.png" width="400" />
+	<img src="./doc/image/SignIn.png" width="800" />
 </p>
 Hệ thống sẽ trả về biến auth trong Header
 <p align="left">
-	<img src="./doc/image/_auth.png" width="400" />
+	<img src="./doc/image/_auth.png" width="800" />
 </p>
 
 #### Add To-Do
@@ -74,47 +74,47 @@ Hệ thống sẽ trả về biến auth trong Header
 Thêm biến auth vào Header trong những route tiếp theo
 Chú ý: Nếu dùng bằng browser, bạn không phải thực hiện bước mày mà hệ thống sẽ tự động ghi vào browser.
 <p align="left">
-	<img src="./doc/image/__auth.png" width="400" />
+	<img src="./doc/image/__auth.png" width="800" />
 </p>
 Tiếp tục
 <p align="left">
-	<img src="./doc/image/TaskNew.png" width="400" />
+	<img src="./doc/image/TaskNew.png" width="800" />
 </p>
 
 #### Update To-Do
 `Route (PATCH) /task/:id`
 <p align="left">
-	<img src="./doc/image/TaskUpdate.png" width="400" />
+	<img src="./doc/image/TaskUpdate.png" width="800" />
 </p>
 
 #### Remove To-Do
 `Route (DELETE) /task/:id`
 <p align="left">
-	<img src="./doc/image/TaskDelete.png" width="400" />
+	<img src="./doc/image/TaskDelete.png" width="800" />
 </p>
 
 #### Get All To-Do
 `Route (GET) /task`
 <p align="left">
-	<img src="./doc/image/TaskAll.png" width="400" />
+	<img src="./doc/image/TaskAll.png" width="800" />
 </p>
 
 #### Get To-Do By Id
 `Route (GET) /task/:id`
 <p align="left">
-	<img src="./doc/image/TaskById.png" width="400" />
+	<img src="./doc/image/TaskById.png" width="800" />
 </p>
 
 #### Get All User
 `Route (GET) /user`
 <p align="left">
-	<img src="./doc/image/UserAll.png" width="400" />
+	<img src="./doc/image/UserAll.png" width="800" />
 </p>
 
 #### Assign To-Do
 `Route (PATCH) /assign/:id`
 <p align="left">
-	<img src="./doc/image/AssignTask.png" width="400" />
+	<img src="./doc/image/AssignTask.png" width="800" />
 </p>
 
 ## Thông tin liên lạc
