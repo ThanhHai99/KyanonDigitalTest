@@ -38,6 +38,14 @@
 
 ## Điều kiện tiên quyết
 Đã cài đặt nodejs. <https://nodejs.org/en/download/>
+Cài đặt thư viện ts-node
+```console
+$ npm i ts-node -g
+```
+Cài đặt thư viện typeorm
+```console
+$ npm i typeorm -g
+```
 
 ## Cách cài đặt
 * **Bước 1**: Cài đặt những thư viện cần thiết cho dự án
@@ -46,10 +54,15 @@ $ npm install
 ```
 * **Bước 2**: Thiết lặp cài đặt cơ sở dữ liệu trong file `./ormconfig.json`
 * **Bước 3**: Thiết lặp cài đặt thông tin khác trong file `./src/config/config.ts`
-* **Bước 4**: Khởi chạy dự án
+* **Bước 4**: Khởi chạy dự án và tạo những bảng được định nghĩa vào cơ sở dữ liệu (nếu chưa có trong cơ sở dữ liệu)
 ```console
 $ npm start
 ```
+* **Bước 5**: Tạo dữ liệu mẫu `mật khẩu mặc định của user là: Aa@123456`
+```console
+$ ts-node --transpile-only ./node_modules/typeorm/cli.js migration:run
+```
+* **Bước 6**: Bạn phải thực hiện lại bước 4 nếu bạn đã dừng server.
 
 ## Cách sử dụng
 ### **Hướng dẫn sử dụng ứng dụng bằng [Insomnia][https://insomnia.rest/download]**
