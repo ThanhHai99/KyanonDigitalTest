@@ -6,7 +6,7 @@
 * [Điều kiện tiên quyết](#Điều-kiện-tiên-quyết)
 * [Cách cài đặt](#Cách-cài-đặt)
 * [Cách sử dụng](#Cách-sử-dụng)
-	* [Hướng dẫn sử dụng bằng Insomnia]()
+	* [Hướng dẫn sử dụng ứng dụng bằng Insomnia](#Hướng-dẫn-sử-dụng-ứng-dụng-bằng-Insomnia)
 		* [Sign Up](#Sign-Up)
 		* [Sign In](#Sign-In)
 		* [Add To-Do](#Add-To-Do)
@@ -37,8 +37,9 @@
 </p>
 
 ## Điều kiện tiên quyết
-Đã cài đặt nodejs. <https://nodejs.org/en/download/>
-Cài đặt thư viện ts-node
+Đã cài đặt nodejs <https://nodejs.org/en/download/>
+
+Đã cài đặt thư viện ts-node
 ```console
 $ npm i ts-node -g
 ```
@@ -65,7 +66,8 @@ $ ts-node --transpile-only ./node_modules/typeorm/cli.js migration:run
 * **Bước 6**: Bạn phải thực hiện lại bước 4 nếu bạn đã dừng server.
 
 ## Cách sử dụng
-### **Hướng dẫn sử dụng ứng dụng bằng [Insomnia][https://insomnia.rest/download]**
+### Hướng dẫn sử dụng ứng dụng bằng Insomnia
+Cài đặt Insomnia <https://insomnia.rest/download]>
 #### Sign Up
 `Route (POST) /auth/signUp`
 <p align="left">
