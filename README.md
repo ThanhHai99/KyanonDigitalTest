@@ -23,7 +23,7 @@
 
 ## Cấu trúc cây
 <p align="left">
-	<img src="./doc/TreeStructure.png" width="800" />
+	<img src="./doc/TreeStructure.png" width="400" />
 </p>
 
 ## Mô hình cơ sở dữ liệu
