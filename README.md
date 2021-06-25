@@ -39,11 +39,11 @@
 ## Điều kiện tiên quyết
 Đã cài đặt nodejs <https://nodejs.org/en/download/>
 
-Đã cài đặt thư viện ts-node
+Đã cài đặt thư viện `ts-node (v10.0.0)`
 ```console
 $ npm i ts-node -g
 ```
-Cài đặt thư viện typeorm
+Cài đặt thư viện `typeorm (v0.2.34)`
 ```console
 $ npm i typeorm -g
 ```
@@ -67,7 +67,7 @@ $ ts-node --transpile-only ./node_modules/typeorm/cli.js migration:run
 
 ## Cách sử dụng
 ### Hướng dẫn sử dụng ứng dụng bằng Insomnia
-Cài đặt Insomnia <https://insomnia.rest/download]>
+Cài đặt Insomnia <https://insomnia.rest/download>
 #### Sign Up
 `Route (POST) /auth/signUp`
 <p align="left">
