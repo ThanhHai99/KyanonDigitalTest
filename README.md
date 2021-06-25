@@ -41,11 +41,11 @@
 
 Đã cài đặt thư viện `ts-node (v10.0.0)`
 ```console
-$ npm i ts-node -g
+$ npm i ts-node@10.0.0 -g
 ```
 Cài đặt thư viện `typeorm (v0.2.34)`
 ```console
-$ npm i typeorm -g
+$ npm i typeorm@0.2.34 -g
 ```
 
 ## Cách cài đặt
